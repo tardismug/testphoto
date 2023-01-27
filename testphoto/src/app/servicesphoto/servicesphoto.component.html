@@ -1,0 +1,8 @@
+<section *ngIf="servicesphoto" id="BlocServices">
+  <h2 class="text-center">Services</h2>
+  <div class="grid">
+    <div *ngFor="let serv of servicesphoto" class="UnService">
+      {{ serv.name }}
+    </div>
+  </div>
+</section>
